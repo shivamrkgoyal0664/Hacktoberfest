@@ -6,7 +6,7 @@
 
 <div align="center">
 
-<a href="https://github.com/shivamcreator/Hacktoberfest2022/graphs/contributors">
+<a href="https://github.com/shivamcreator/Hacktoberfest/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=shivamcreator/Hacktoberfest2022" />
 </a>
   
