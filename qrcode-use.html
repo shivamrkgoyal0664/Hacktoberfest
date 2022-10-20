@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="E:/Projects/Experiment/QR-USE/node_modules/easyqrcodejs/dist/easy.qrcode.min.js" type="text/javascript" charset="utf-8"></script>
+
+</head>
+<body>
+    <div id="qrcode"></div>
+
+    <script type="text/javascript">
+        // Options
+        var options = {
+            text: "https://github.com/ushelp/EasyQRCodeJS",
+            width: 500,
+            height: 500,
+            colorDark: "#a3012f",
+            colorLight: "#ffffff",
+        };
+
+        // Create QRCode Object
+        new QRCode(document.getElementById("qrcode"), options);
+
+    </script>
+</body>
+</html>
